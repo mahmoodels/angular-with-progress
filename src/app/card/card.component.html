@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let fil of files">
+    <span>{{fil.name}}</span> ,
+    <span>{{fil.isDone}}</span>
+    <progress value="{{fil.percent}}" max="100">
+    </progress>
+  </li>
+</ul>
